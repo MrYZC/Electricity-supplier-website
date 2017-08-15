@@ -141,22 +141,90 @@ a.logre:link{
 }	
 .all-good{
 	color: #fff;
-	font-weight: bold;7
+	font-weight: bold;
+	font-size: 20px;
 }
 .good-where{
-	float: right;
-	margin-left: 200px;	
+	float: right;	
 }
 .good-where-inner{
 	display: inline;
 	color: #fff;
 	font-weight: bold;
-	margin-right: 100px;
+	margin-left: 80px;	
 }
 .good-sort{
 	background-color: rgb(69,147,253);
-	width: 100px;
+	width: 180px;
 	position: absolute;
 	top: 150px;
-	left: 90px;
+	left: 5.2%;
+	color: #fff;
+}
+.sort-block-1{
+	margin-left: 20px;
+	padding-top: 15px;
+	height: 40px;
+}
+.sort-block:nth-child(2){
+	background-color: #fff;
+	color: #000;
+}
+.sort-block:nth-child(2) .description{
+	color:#fff;
+}
+.sort-block .sort-header{
+	font-size:12px;
+	font-weight: bolder;
+	display: inline;
+}
+.description{
+	height: 14px;
+	width: 42px;
+	background-color: rgb(16,106,192);
+	margin-left: 4px;
+	border:1px solid rgb(16,106,192);
+	border-radius: 12px;
+	padding: 2px;
+}
+.to-part{
+	margin-top: 5px;
+}
+.good-phone,.good-computer,.good-LargeAppliances,.good-electricalEequipment,.good-food{
+	display: inline;
+}
+.good-pull-down-list{
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	left: 18.5%;
+	color: #000;
+	z-index: 1000;
+}
+.good-pull-down-display{
+	height: 40px;
+	padding-top: 10px;
+	border-bottom: 1px solid rgb(229,229,229);
+}
+.header-good-pull-down-display{
+	color: rgb(75,136,218);
+	font-weight: bold;
+}
+
+.all-good-display,.computer-all,.hardware-peripheral,.good-pull-down-display .span,.header-good-pull-down-display,.computer-detail,.part-detail,.Machine-accessories,.computer-peripherals,.network-equipment,.Audio-equipment,.outside-part{
+	display: inline;
+	margin-left: 5px;
+}
+
+.body-display{
+	margin:0 auto;
+	width: 89.6%;
+}
+.computer-all,.hardware-peripheral{
+	height: 20px;
+	width: 100px;
+	background-color: rgb(39,133,230);
+	color: #fff;
+	padding: 8px;
+	line-height: 30px;
 }
